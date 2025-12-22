@@ -4,7 +4,7 @@ import requests
 API_URL = "http://127.0.0.1:8000/query"
 
 st.title("Document Chatbot")
-st.write("Ask questions about your documents like webscraping.txt and oops_java.pdf")
+st.write("Ask questions about your sales data and get insights.")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
