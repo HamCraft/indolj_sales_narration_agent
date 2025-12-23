@@ -10,7 +10,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 # Load environment variables from .env file
 load_dotenv()
 
-DATA_PATH="/knowledge_base"
+DATA_PATH="./knowledge_base"
 FAISS_PATH="./faiss_index"
 
 print("Loading text files ...")
