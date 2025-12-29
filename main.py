@@ -22,7 +22,7 @@ OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 # )
 
 # llm = ChatOpenAI(
-#     model="allenai/olmo-3.1-32b-think:free",
+#     model="nex-agi/deepseek-v3.1-nex-n1:free",
 #     api_key=OPENROUTER_API_KEY,
 #     base_url="https://openrouter.ai/api/v1",
 #     temperature=0.8
